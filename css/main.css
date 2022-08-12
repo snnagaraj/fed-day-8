@@ -1,0 +1,105 @@
+.container {
+    width: 1300px;
+    margin: auto;
+    /* outline: solid 1px black;     */
+}
+.header{
+    background-color: #2f3342;
+    height: 650px;
+}
+.header-flex .tittle {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.header-flex .header-logo a{
+    /* display: flex; */
+    font-size: 28px;
+    padding-right: 15px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    list-style-type: none;
+    padding-top: 10px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: rgb(224, 221, 217);
+    padding-right: 25px;
+    font-family: sans-serif;
+}
+.navbar li a:hover {
+    color: #fff;
+}
+.tittle-button .nagaraj {
+    font-size: 15px;
+    margin-bottom: 15px;
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #eee;
+    background-color: #0e36c7 ;
+}
+.tittle-button .nagaraj:hover{
+    background-color:#4768dd;
+    color: #fff;
+}
+.head-all{
+    display: flex;
+}
+.head-content {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.head-paragraph {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.head-paragraph h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 35px;
+}
+.head-paragraph p {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.form-box{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.form-box .form-input {
+    width: 80%;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+}
+.numbers .mani{
+    display: flex;
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.mani h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.mani p{
+    font-size: 20px;
+    color: #eee;
+    text-align: center;
+}
+.header-image {
+    width: 50%;
+    margin-top: 70px;
+    margin-left: 90px;
+}
