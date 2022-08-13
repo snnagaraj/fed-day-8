@@ -4,8 +4,14 @@
     /* outline: solid 1px black;     */
 }
 .header{
-    background-color: #2f3342;
+    background-color:#0E1D34 ;
     height: 650px;
+}
+.bgimage{
+    background-image: url(../hero-bg.png);
+    background-size: cover;
+    position: relative;
+    background-color:#0E1D34 ;
 }
 .header-flex .tittle {
     display: flex;
@@ -102,4 +108,94 @@
     width: 50%;
     margin-top: 70px;
     margin-left: 90px;
+}
+.head-achive{
+    display: flex;
+    width: 100%;
+}
+.sub-achive{
+    display: flex;
+    margin: 25px;
+    width: 33.33%;
+    height: 150px;
+}
+.sub-achive a{
+    text-decoration: none;
+}
+.sub-achive .achivement-box{
+    width: 20%;
+}
+.achivement-box a{
+    margin-left: 40px;
+    padding-right: 30px;
+    font-size: 50px;
+    color: #001F8D;
+}
+.sub-achive .achive-content{
+    width: 80%;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.achive-content h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.achive-content p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.sub-achive a :hover{
+    background: #4768dd;
+    color: #eee;
+}
+.about-flex{
+    display: flex;
+    width: 100%;
+}
+.about1{
+    width: 50%;
+}
+.about1 .about-content h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.about-content p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+}
+.logo1-text{
+    width: 100%;
+    display: flex;
+}
+.colect-logo {
+    width: 20%;
+    margin-bottom: 50px;
+}
+.colect-logo a {
+    font-size: 30px;
+    text-decoration: none;
+    color:  #0d42ff;
+}
+.logo-content{
+    width: 80%;
+    margin-right: 18px;
+}
+.logo-content h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.about2{
+    width: 50%;
+    overflow: hidden;
+}
+.about2 .img {
+    width: 100%;
+}
+.service-flex{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.33%;
 }
