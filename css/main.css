@@ -197,5 +197,65 @@
 .service-flex{
     display: flex;
     flex-wrap: wrap;
-    width: 33.33%;
+    box-sizing: border-box;
+    width: 100%;
+}
+.all-service{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 30%;
+}
+.cas{
+    background-color: #242527;
+    margin-top: 20px;
+    height: 300px;
+}
+.cas-head{
+    width: 100%;
+}
+.cas-head h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    padding-top: 50px;
+}
+.cas-head p {
+    font-size: 15px;
+    color: #eee;
+    text-align: center;
+    padding-top: 25px;
+}
+.cas-button.vijay{
+    text-align: center;
+}
+.features-flex{
+    display: flex;
+    margin-top: 40px;
+}
+.features-box1{
+    display: flex;
+}
+.features-img1 img{
+    margin-left: 90px;   
+}
+.feature-content1{
+    width: 60%;
+}
+.feature-content1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: #242527;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.feature-content1 p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.list-content .span i{
+    margin-left: 20px;
 }
