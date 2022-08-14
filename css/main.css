@@ -410,3 +410,123 @@
     color: green;
     padding-right: 5px;
 }
+.price-box .kumar{
+    font-size: 15px;
+    width: 110px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d42ff;
+    color: #eee;
+}
+.price-box .muthu{
+    font-size: 15px;
+    width: 110px;
+    height: 50px;
+    border-color: #0d42ff;
+    border-radius: 5px;
+    color: #0d42ff;
+}
+.price-box .muthu:hover{
+    background-color: #0d42ff;
+    color: #fff;
+    transition: all 0.5s;
+}
+.ratings .bg-image{
+    background-image: url(../testimonials-bg.jpg);
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.footer{
+    background-color: #0E1D34;
+}
+.footer-flex{
+    display: flex;
+    height: 350px;
+}
+.footer-row1{
+    margin-top: 30px;
+}
+.footer-row1 h2 a{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.footer-row1 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logis-icon a{
+    text-decoration: none;
+}
+.logis-icon a i{
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 20px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    color: #eee;
+}
+.footer-row2{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.footer-row2 h3{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.footer-row2 ul a{
+    text-decoration: none;
+    color: #9da0a3;
+}
+.footer-row2 ul li {
+    padding-bottom: 20px;
+}
+.footer-row2 ul a:hover{
+    color: #fff;
+}
+.footer-row3{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.footer-row3 h3{
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+.footer-row3 .box-1{
+    color: #fff;
+    line-height: 25px;
+}
+.footer-row3 .box-2{
+    color: #fff;
+    padding-top: 30px;
+    line-height: 25px;
+}
+.legel{
+    background-color: #0E1D34;
+}
+.legel-flex{
+    height: 100px;
+}
+.legel-box h2{
+    color: #fff;
+    text-align: center;
+}
+.legel-box p{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+
