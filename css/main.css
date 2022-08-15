@@ -21,7 +21,7 @@
 .header-flex .header-logo a{
     /* display: flex; */
     font-size: 28px;
-    padding-right: 15px;
+    padding-right: 365px;
     line-height: 1;
     font-weight: 500;
     letter-spacing: 3px;
@@ -44,7 +44,7 @@
 }
 .tittle-button .nagaraj {
     font-size: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     width: 130px;
     height: 30px;
     border: none;
@@ -88,6 +88,15 @@
     border-radius: 6px;
     border: none;
 }
+.form-box .raja{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0d42ff;
+    color: #eee;
+}
 .numbers .mani{
     display: flex;
     display: inline-block;
@@ -99,17 +108,23 @@
     font-weight: bold;
     color: #fff;
 }
+.hrline{
+    color: #eee;
+    height: 2px;
+    width: 20%;
+}
 .mani p{
     font-size: 20px;
     color: #eee;
     text-align: center;
+    justify-content: center;
 }
 .header-image {
     width: 50%;
     margin-top: 70px;
     margin-left: 90px;
 }
-.head-achive{
+.achivements-flex{
     display: flex;
     width: 100%;
 }
@@ -129,23 +144,28 @@
     margin-left: 40px;
     padding-right: 30px;
     font-size: 50px;
-    color: #001F8D;
+    color: #0a0d13;
+}
+.achivement-box a i {
+    padding-right: 30px;
 }
 .sub-achive .achive-content{
     width: 80%;
     margin-left: 15px;
     margin-top: 10px;
 }
-.achive-content h3{
+.achive-content h3 {
     font-size: 25px;
     padding-bottom: 10px;
+}
+.achive-content h3 a{
+    color: #0a0d13;
 }
 .achive-content p{
     font-size: 15px;
     padding-bottom: 10px;
 }
-.sub-achive a :hover{
-    background: #4768dd;
+.achive-content a :hover{
     color: #eee;
 }
 .about-flex{
@@ -158,12 +178,17 @@
 .about1 .about-content h2{
     font-size: 30px;
     font-weight: bold;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    color: #001f8d;
 }
 .about-content p{
     font-size: 15px;
+    color: #0e1d34;
+    font-weight: 300;
+    line-height: 20px;
     font-family: sans-serif;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 .logo1-text{
     width: 100%;
@@ -174,19 +199,21 @@
     margin-bottom: 50px;
 }
 .colect-logo a {
-    font-size: 30px;
+    font-size: 50px;
     text-decoration: none;
     color:  #0d42ff;
 }
 .logo-content{
     width: 80%;
-    margin-right: 18px;
+    margin-right: 100px;
 }
 .logo-content h3{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
+    color: #19335c;
     padding-bottom: 10px;
 }
+
 .about2{
     width: 50%;
     margin: 15px;
@@ -200,12 +227,28 @@
     width: 636px;
     height: 480px;
 }
+.services{
+    margin-top: 90px;
+}
+.name-service h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #001973;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
 .services-flex{
     display: flex;
     flex-wrap: wrap;
 }
 .service-box{
     width: 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+    padding-bottom: 60px;
+    
 }
 .service-image {
     position: relative;
@@ -216,6 +259,26 @@
 .service-image img{
    width: 417px;
    height: 313px;
+   transition: all 0.5s;
+}
+.service-image:hover img{
+    transform: scale(1.1);
+}
+.outline-service{
+    outline: solid 1px rgb(90, 87, 87);
+    padding-bottom: 15px;
+}
+.outline-service h4 a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.outline-service p{
+    font-size: 15px;
+    padding: 15px;
+    line-height: 20px;
 }
 .cas{
     background-color: #242527;
@@ -234,12 +297,13 @@
     padding-top: 50px;
 }
 .cas-head p {
-    font-size: 15px;
+    font-size: 18px;
     color: #eee;
     text-align: center;
     padding-top: 25px;
+    line-height: 20px;
 }
-.cas-button.vijay{
+.vijay{
     text-align: center;
 }
 .features-flex{
@@ -267,6 +331,7 @@
     font-family: sans-serif;
     padding-left: 20px;
     padding-top: 10px;
+    line-height: 20px;
 }
 .feature-content1 ul{
     margin-left: 20px;
@@ -301,11 +366,13 @@
     padding-bottom: 25px;
     padding-left: 20px;
     letter-spacing: 1px;
+    line-height: 20px;
 }
 .feature-content2 .paragraph2{
     font-size: 15px;
     font-family: sans-serif;
     padding-left: 20px;
+    line-height: 20px;
 }
 .features-box3{
     display: flex;
@@ -329,6 +396,7 @@
     font-family: sans-serif;
     padding-left: 20px;
     padding-top: 10px;
+    line-height: 20px;
 }
 .feature-content3 ul{
     margin-left: 20px;
@@ -363,11 +431,24 @@
     padding-bottom: 25px;
     padding-left: 20px;
     letter-spacing: 1px;
+    line-height: 20px;
 }
 .feature-content4 .paragraph2{
     font-size: 15px;
     font-family: sans-serif;
     padding-left: 20px;
+    line-height: 20px;
+}
+.pricing{
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.tittle-price{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #001f8d;
 }
 .pricing-flex{
     display: flex;
@@ -432,12 +513,62 @@
     color: #fff;
     transition: all 0.5s;
 }
+.ratings{
+    width: 100%;
+    height: 500px;
+}
 .ratings .bg-image{
     background-image: url(../testimonials-bg.jpg);
     width: 100%;
     height: 500px;
-    overflow: hidden;
+    background-size: cover;
     position: relative;
+}
+.bg-image::after{
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    top: 0;
+    width: 100%;
+    height: 500px;
+}
+.rating-content .mango{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: solid 6px rgb(143, 134, 134);
+    vertical-align: middle;
+}
+.ratings-flex{
+    position: absolute;
+    top: 40%;
+}
+.faq{
+    margin-top: 70px;
+}
+.title-faq{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #001f8d;
+}
+.faq-flex{
+    display: flex;
+    height: 500px;
+}
+.india summary{
+    font-size: 20px;
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.india p{
+    font-size: 20px;
+    text-align: left;
+}
+.india summary:hover{
+    color: #0d42ff;
 }
 .footer{
     background-color: #0E1D34;
