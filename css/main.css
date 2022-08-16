@@ -40,6 +40,7 @@
     text-decoration: none;
     color: rgb(224, 221, 217);
     padding-right: 25px;
+    /* padding-top: 50px; */
     font-family: sans-serif;
 }
 .navbar li a:hover {
@@ -47,7 +48,7 @@
 }
 .tittle-button .nagaraj {
     font-size: 15px;
-    /* margin-bottom: 15px; */
+    margin-top: -8px;
     width: 130px;
     height: 30px;
     border: none;
@@ -78,8 +79,11 @@
     padding-bottom: 35px;
 }
 .head-paragraph p {
+    font-size: 15px;
+    font-family: sans-serif;
     color: #fff;
     padding-bottom: 20px;
+    line-height: 22px;
 }
 .form-box{
     margin-top: 30px;
@@ -121,6 +125,7 @@
     color: #eee;
     text-align: center;
     justify-content: center;
+    padding-right: 20px;
 }
 .header-image {
     width: 50%;
@@ -157,20 +162,23 @@
     margin-left: 15px;
     margin-top: 10px;
 }
-.achive-content h3 {
-    font-size: 25px;
-    padding-bottom: 10px;
-}
 .achive-content h3 a{
+    font-size: 25px;
+    padding-bottom: 15px;
     color: #0a0d13;
 }
 .achive-content p{
     font-size: 15px;
     padding-bottom: 10px;
+    line-height: 20px;
 }
-.achive-content a :hover{
-    color: #eee;
+.achive-content p a{
+    color: #242527;
 }
+.sub-achive :hover a {
+    color: #001f8d;
+}
+
 .about-flex{
     display: flex;
     width: 100%;
@@ -480,9 +488,13 @@
 }
 .price-box{
     width: 33.33%;
+    margin-left: 40px;
     /* box-sizing: border-box; */
     /* box-shadow: 0 0 5px 0; */
     /* margin: 20px; */
+}
+.price-box span{
+    color: #4f5155;
 }
 .price-box h3{
     font-weight: 600;
@@ -540,15 +552,16 @@
 .ratings{
     width: 100%;
     height: 500px;
+    position: relative;
 }
-.ratings .bg-image{
+.ratings .big-image{
     background-image: url(../testimonials-bg.jpg);
     width: 100%;
     height: 500px;
     background-size: cover;
     position: relative;
 }
-.bg-image::after{
+.big-image::after{
     content: "";
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
@@ -556,12 +569,9 @@
     width: 100%;
     height: 500px;
 }
-.rating-content .mango{
-    width: 100%;
-    box-sizing: border-box;
-    border-radius: 50%;
-    border: solid 6px rgb(143, 134, 134);
-    vertical-align: middle;
+.rating-content img{
+    position: relative;
+   
 }
 .ratings-flex{
     position: absolute;
