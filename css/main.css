@@ -487,8 +487,12 @@
     margin: 20px;
 }
 .price-box{
-    width: 33.33%;
-    margin-left: 40px;
+    padding: 90px 90px;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px -2px rgb(108 117 125 /15%);
+    /* width: 33.33%; */
+    /* margin-left: 40px; */
+
     /* box-sizing: border-box; */
     /* box-shadow: 0 0 5px 0; */
     /* margin: 20px; */
@@ -551,7 +555,7 @@
 }
 .ratings{
     width: 100%;
-    height: 500px;
+    height: 550px;
     position: relative;
 }
 .ratings .big-image{
@@ -569,13 +573,56 @@
     width: 100%;
     height: 500px;
 }
+.rating-content{
+    /* margin-bottom: 500px; */
+    margin-left: 550px;
+}
 .rating-content img{
+    width: 25%;
+    margin-bottom: 30px;
     position: relative;
-   
+    border-radius: 50%;
+    border: 6px solid rgb(99, 97, 94);
+}
+.head-rate{
+    margin-left: 50px;
+}
+.head-rate h2{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.head-rate h4{
+    color: #fff;
+    text-align: center;
+    padding-left: 60px;
+}
+.head-rate p{
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+}
+.head-rate p i{
+    color: #9da1a5;
+    padding-bottom: 25px;
+}
+.head-rate ul{
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.head-rate ul i{
+    color: gold;
 }
 .ratings-flex{
     position: absolute;
-    top: 40%;
+    top: 20%;
 }
 .faq{
     margin-top: 70px;
@@ -590,6 +637,11 @@
 .faq-flex{
     display: flex;
     height: 500px;
+}
+.india{
+    box-shadow: 0 5px 20px -3px rgba(11, 51, 83, 0.15);
+    padding-left: 100px;
+    
 }
 .india summary{
     font-size: 20px;
